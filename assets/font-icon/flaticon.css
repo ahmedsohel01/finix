@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 19/12/2020 13:59
+  	Creation date: 21/12/2020 02:50
   	*/
 
 @font-face {
@@ -25,8 +25,9 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-  font-style: normal;
-
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
 .flaticon-telephone:before { content: "\f100"; }
@@ -46,3 +47,4 @@
 .flaticon-right-arrow:before { content: "\f10e"; }
 .flaticon-left-arrow:before { content: "\f10f"; }
 .flaticon-user-experience:before { content: "\f110"; }
+.flaticon-right-quote:before { content: "\f111"; }
