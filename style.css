@@ -185,15 +185,15 @@ button:focus,
   margin-bottom: 30px;
   line-height: 1.75;
 }
-.banner-bottom {
+.banner-social {
   position: absolute;
   bottom: 20px;
 }
-.banner-bottom p {
+.banner-social p {
   color: #606060;
   position: relative;
 }
-.banner-bottom p::after {
+.banner-social p::after {
   content: "";
   width: 40px;
   height: 1px;
@@ -202,18 +202,18 @@ button:focus,
   top: 50%;
   right: -50px;
 }
-.banner-bottom ul {
+.banner-social ul {
   margin-left: 30px;
 }
-.banner-bottom ul li {
+.banner-social ul li {
   display: inline-block;
   padding: 0 10px;
 }
-.banner-bottom ul li a {
+.banner-social ul li a {
   color: #111;
   transition: all 0.4s;
 }
-.banner-bottom ul li a:hover {
+.banner-social ul li a:hover {
   color: #e83b3e;
 }
 /* Header-style */
@@ -656,7 +656,7 @@ button:focus,
   background-color: #fafbfc;
   color: #111;
   border-radius: 50%;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 .member-social-icons li a:hover {
   background-color: #e73c3e;
@@ -669,5 +669,94 @@ button:focus,
 }
 /* Team-style */
 /* Blog-style */
-
+.post-date {
+  font-size: 16px;
+  color: #e73c3e;
+}
+.post-title {
+  font-size: 25px;
+  transition: all 0.4s;
+}
+.post-title:hover {
+  color: #e73c3e;
+}
+.read-more {
+  transition: all 0.4s;
+}
+.single-blog-post:hover .read-more {
+  color: #e73c3e;
+  letter-spacing: 1px;
+}
 /* Blog-style */
+/* footer-style */
+.footer-section {
+  background-color: #111;
+}
+/* footer-top */
+.widget p {
+  color: #fff;
+  padding-right: 15px;
+}
+.footer-social ul {
+  padding: 0;
+}
+.footer-social ul li {
+  display: inline-block;
+  padding: 0 5px;
+}
+.footer-social ul li a {
+  color: #fff;
+  transition: all 0.4s;
+}
+.footer-social ul li a:hover {
+  color: #e83b3e;
+}
+.widget-title {
+  font-size: 20px;
+  color: #fff;
+}
+.widget-2 ul,
+.widget-3 ul,
+.widget-4 ul {
+  padding: 0;
+  margin: 0;
+}
+.widget-2 ul li,
+.widget-3 ul li,
+.widget-4 ul li {
+  padding-bottom: 10px;
+}
+.widget-2 ul li a,
+.widget-3 ul li a,
+.widget-4 ul li a {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  transition: all 0.4s;
+}
+.widget-2 ul li a:hover,
+.widget-3 ul li a:hover,
+.widget-4 ul li a:hover {
+  color: #e73c3e;
+  letter-spacing: 1px;
+}
+
+.contact-icon i {
+  font-size: 25px;
+  color: #fff;
+  display: inline-block;
+  margin-right: 15px;
+}
+/* footer-bottom */
+.copy-right p {
+  margin: 0;
+}
+.copy-right a {
+  color: #fff;
+  transition: all 0.4s;
+}
+.copy-right a:hover {
+  color: #e73c3e;
+}
+/* footer-style */
