@@ -237,10 +237,6 @@ button:focus,
   font-weight: 600;
   color: #111;
 }
-.about-text-area {
-}
-.section-title-area {
-}
 .section-sub {
   font-size: 16px;
   font-weight: 400;
@@ -257,8 +253,6 @@ button:focus,
   color: #606060;
   word-spacing: 3px;
   line-height: 1.7;
-}
-.about-content {
 }
 .about-content p {
   font-size: 18px;
@@ -279,8 +273,6 @@ button:focus,
 }
 /* About-style */
 /* why-choose-style */
-.why-choose-img-area {
-}
 .play-btn {
   position: absolute;
   bottom: 65px;
@@ -365,8 +357,6 @@ button:focus,
   border-radius: 50%;
   transition: all 0.4s;
 }
-.text-area {
-}
 .text-area h4 {
   font-size: 25px;
   color: #111;
@@ -387,9 +377,6 @@ button:focus,
 }
 /* why-choose-style */
 /* funding-style */
-.step-timeline-area {
-}
-
 .step-timeline-area h2 {
   font-size: 36px;
   font-weight: 400;
@@ -487,27 +474,15 @@ button:focus,
 }
 /* Business-call */
 /* company-value style */
-.value-text-area {
-}
 .value-text-area h2 {
   font-size: 36px;
-}
-.value-items {
-}
-.value-items li {
-}
-.value-icon {
 }
 .value-icon i {
   font-size: 45px;
   color: #e73c3e;
 }
-.value-text {
-}
 .value-text h3 {
   font-size: 25px;
-}
-.value-text p {
 }
 /* company-value style */
 /* service-style */
@@ -610,8 +585,6 @@ button:focus,
 .custom-indicators li.active span {
   opacity: 1;
 }
-.carousel-tect-content {
-}
 .clients-comment {
   font-family: "Rubik", sans-serif;
   font-size: 24px;
@@ -643,3 +616,58 @@ button:focus,
   background-color: #e73c3e;
 }
 /* Testimonial-style */
+/* Team-style */
+.member-social-icons {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+.member-social-icons li {
+  display: inline-block;
+  padding: 0 3px;
+  transform: translateY(40px);
+  transition: 0.4s ease-in-out;
+}
+.member-social-icons li:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.member-social-icons li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.member-social-icons li:nth-child(3) {
+  transition-delay: 0.3s;
+}
+.member-social-icons li:nth-child(4) {
+  transition-delay: 0.4s;
+}
+.single-team-member:hover li {
+  transform: translateY(-30px);
+}
+.member-social-icons li a {
+  display: inline-block;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #fafbfc;
+  color: #111;
+  border-radius: 50%;
+  transition: all .4s;
+}
+.member-social-icons li a:hover {
+  background-color: #e73c3e;
+  color: #fafbfc;
+}
+.member-name {
+  font-size: 20px;
+  color: #e73c3e;
+  margin-bottom: 5px;
+}
+/* Team-style */
+/* Blog-style */
+
+/* Blog-style */
