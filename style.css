@@ -26,6 +26,18 @@ label {
   color: #111;
   word-spacing: 2px;
 }
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
 a {
   text-decoration: none;
 }
@@ -59,7 +71,8 @@ button:focus,
   height: 100vh;
   position: relative;
 }
-.header-section .container-fluid {
+.header-section .container-fluid,
+nav .container-fluid {
   width: 1470px;
 }
 /* Navigation */
@@ -76,7 +89,8 @@ button:focus,
   transition: all 0.4s;
 }
 .nav-menu .nav-link:hover,
-.nav-menu .nav-link:active {
+.nav-menu .nav-link.active,
+.drop-content .nav-link.active {
   color: #e83b3e !important;
 }
 .drop-btn {
@@ -238,12 +252,10 @@ button:focus,
   color: #111;
 }
 .section-sub {
-  font-size: 16px;
   font-weight: 400;
   color: #e83b3e;
 }
 .section-title {
-  font-size: 36px;
   font-weight: 600;
   color: #111;
   line-height: 1.25;
@@ -357,8 +369,7 @@ button:focus,
   border-radius: 50%;
   transition: all 0.4s;
 }
-.text-area h4 {
-  font-size: 25px;
+.text-area h3 {
   color: #111;
   margin: 20px 0;
 }
@@ -381,11 +392,11 @@ button:focus,
   font-size: 36px;
   font-weight: 400;
 }
-.seep-timeline {
+.step-timeline {
   margin-left: 25px;
   padding-left: 50px;
 }
-.seep-timeline::before {
+.step-timeline::before {
   content: "";
   position: absolute;
   left: 0;
@@ -394,10 +405,10 @@ button:focus,
   height: calc(100% - 100px);
   background-color: #e73c3e;
 }
-.seep-timeline li {
+.step-timeline li {
   position: relative;
 }
-.seep-timeline li::before {
+.step-timeline li::before {
   content: attr(data-count);
   position: absolute;
   top: 0;
@@ -412,11 +423,10 @@ button:focus,
   border: 1px solid #e73c3e;
   border-radius: 50%;
 }
-.seep-timeline h4 {
-  font-size: 24px;
+.step-timeline h3 {
   font-weight: 500;
 }
-.seep-timeline p {
+.step-timeline p {
   color: #606060;
   line-height: 1.75;
   word-spacing: 1px;
@@ -456,7 +466,6 @@ button:focus,
   background-color: #ddd;
 }
 .solution-item h2 {
-  font-size: 36px;
   font-weight: 400;
   color: #fff;
   line-height: 1.5;
@@ -474,15 +483,9 @@ button:focus,
 }
 /* Business-call */
 /* company-value style */
-.value-text-area h2 {
-  font-size: 36px;
-}
 .value-icon i {
   font-size: 45px;
   color: #e73c3e;
-}
-.value-text h3 {
-  font-size: 25px;
 }
 /* company-value style */
 /* service-style */
@@ -524,9 +527,6 @@ button:focus,
 }
 /* button */
 /* tab-contant */
-.service-item h3 {
-  font-size: 25px;
-}
 .tab-list li {
   margin-bottom: 10px;
   position: relative;
@@ -593,7 +593,6 @@ button:focus,
   word-spacing: 2px;
 }
 .carousel-tect-content .profile h5 {
-  font-size: 16px;
   color: #e73c3e;
 }
 .carousel-img i {
@@ -663,18 +662,16 @@ button:focus,
   color: #fafbfc;
 }
 .member-name {
-  font-size: 20px;
   color: #e73c3e;
   margin-bottom: 5px;
 }
 /* Team-style */
 /* Blog-style */
 .post-date {
-  font-size: 16px;
+  font-weight: 400;
   color: #e73c3e;
 }
 .post-title {
-  font-size: 25px;
   transition: all 0.4s;
 }
 .post-title:hover {
@@ -712,7 +709,6 @@ button:focus,
   color: #e83b3e;
 }
 .widget-title {
-  font-size: 20px;
   color: #fff;
 }
 .widget-2 ul,
